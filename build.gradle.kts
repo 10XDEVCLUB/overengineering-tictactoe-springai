@@ -20,6 +20,7 @@ repositories {
 extra["springAiVersion"] = "1.0.0-M7"
 
 dependencies {
+	implementation("org.xxdc.oss.example:tictactoe-api:2.0.16-jdk24")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.ai:spring-ai-starter-model-ollama")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
